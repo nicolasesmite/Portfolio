@@ -10,18 +10,18 @@ import {
 export const menuItems = [
   {
     id: 1,
-    logo: <FaHome />,
+    logo: <FaHome size={25} className="hover:scale-125" />,
   },
   {
     id: 2,
-    logo: <FaUser />,
+    logo: <FaUser size={25} className="hover:scale-125" />,
   },
   {
     id: 3,
-    logo: <FaUserGraduate />,
+    logo: <FaUserGraduate size={25} className="hover:scale-125" />,
   },
   {
     id: 4,
-    logo: <FaUserTie />,
+    logo: <FaUserTie size={25} className="hover:scale-125" />,
   },
 ];
