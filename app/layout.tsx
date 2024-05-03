@@ -8,14 +8,6 @@ const josefine = Josefin_Sans({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Portfolio- Nicolas Esmite",
   description: "Portfolio",
-  icons: {
-    icon: [
-      {
-        url: "/public/images/favicon.png",
-        href: "/public/images/favicon.png",
-      },
-    ],
-  },
 };
 
 export default function RootLayout({

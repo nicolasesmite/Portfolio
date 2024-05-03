@@ -1,25 +1,34 @@
 import React from "react";
-import { languagesAndFrameworks } from "../../../data";
+import { languagesAndFrameworks, tools } from "../../../data";
 import Link from "next/link";
 
 const page = () => {
   return (
-    <div>
-      <div className="w-2/3">
-        <p className="text-xl">
+    <div className="flex justify-center w-full h-2/3 mt-8 sm:mt-12">
+      <div className="flex flex-col w-2/3 gap-5">
+        <p className="text-xl sm:text-2xl">
           Soy un desarrollador frontend con enfoque en React, actualmente en
-          busca de mi primera oportunidad en el mundo de la tecnología. Durante
-          dos años he estado inmerso en el desarrollo y sus herramientas. En mi
-          último trabajo, lideré un equipo del que fui miembro en el pasado. Me
+          busqueda de mi primera oportunidad en el mundo de la tecnología. Me
           considero alguien con facilidad de aprendizaje, capaz de seguir
           instrucciones y fomentar un buen ambiente y relaciones internas.
         </p>
-        <div>
-          {languagesAndFrameworks.map((element) => (
-            <div key={element.id}>
-              <Link href={element.path}>{element.logo}</Link>
-            </div>
-          ))}
+        <div className="flex flex-col sm:mt-10">
+          <h3 className="text-xl sm:text-3xl mb-2">Lenguajes y Frameworks</h3>
+          <div className="flex gap-3 mb-8">
+            {languagesAndFrameworks.map((element) => (
+              <Link href={element.path} key={element.id}>
+                {element.logo}
+              </Link>
+            ))}
+          </div>
+          <h3 className="text-xl sm:text-3xl mb-2">Herramientas</h3>
+          <div className="flex gap-3">
+            {tools.map((element) => (
+              <Link href={element.path} key={element.id}>
+                {element.logo}
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
     </div>
