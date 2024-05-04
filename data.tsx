@@ -150,3 +150,52 @@ export const tools = [
     path: "https://firebase.google.com/",
   },
 ];
+
+export const experience = {
+  jobPosition: "Prosegur Alarmas (Técnico Remoto)",
+  jobPeriod: "Enero 2021- Febrero 2024",
+  jobTasks: [
+    "Soporte técnico de alarmas interno/externo",
+    "Líder de grupo",
+    "Referente de aplicación corporativa",
+    "Capacitador",
+    "Análisis y escalamiento de incidencias",
+    "Utilización de JIRA",
+  ],
+};
+
+export const education = [
+  {
+    id: 1,
+    name: "UTU Arias Balparda",
+    info: "Bachiller Electro-Mecánica, 2017",
+  },
+
+  {
+    id: 2,
+    name: "Jóvenes a Programar-Ceibal",
+    info: "Front-end development, 2022",
+  },
+
+  { id: 3, name: "Coderhouse", info: "Javascript , 2022" },
+
+  { id: 4, name: "Coderhouse", info: "React JS, 2023" },
+];
+
+export const languages = [
+  {
+    id: 1,
+    language: "Español",
+    level: " (Nativo)",
+  },
+  {
+    id: 2,
+    language: "Inglés",
+    level: " (Avanzado)",
+  },
+  {
+    id: 3,
+    language: "Portugués",
+    level: " (Intermedio)",
+  },
+];
