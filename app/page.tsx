@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profile from "./public/images/profile.png";
+import profile from "./public/profile.png";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 export default function Home() {

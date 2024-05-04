@@ -1,11 +1,12 @@
 import React from "react";
-import { experience, education } from "../../../data";
+import { experience } from "../../../data";
+import Link from "next/link";
 
 const page = () => {
   return (
-    <div>
+    <div className="flex flex-col w-full items-center h-2/3 mt-8 sm:mt-12">
       <h2 className="text-2xl sm:text-4xl mb-5 text-nowrap">Experiencia</h2>
-      <div>
+      <div className="flex flex-col">
         <h3 className="text-xl sm:text-3xl">{experience.jobPosition}</h3>
         <p className="text-gray-400 text-lg sm:text-2xl mb-3">
           {experience.jobPeriod}
@@ -15,8 +16,15 @@ const page = () => {
             {task}
           </p>
         ))}
+        <div className="flex flex-col gap-2 mt-12 items-center">
+          <Link
+            href="https://drive.google.com/drive/folders/1nmxKwjFd8Om6L0JSMSxD-xdlB2QPMVCG?usp=drive_link"
+            className="bg-violet-500 rounded-lg p-2 text-center w-2/3"
+          >
+            Descargar Curriculum
+          </Link>
+        </div>
       </div>
-      <button>Descargar cv</button>
     </div>
   );
 };

@@ -155,12 +155,12 @@ export const experience = {
   jobPosition: "Prosegur Alarmas (Técnico Remoto)",
   jobPeriod: "Enero 2021- Febrero 2024",
   jobTasks: [
-    "Soporte técnico de alarmas interno/externo",
-    "Líder de grupo",
-    "Referente de aplicación corporativa",
-    "Capacitador",
-    "Análisis y escalamiento de incidencias",
-    "Utilización de JIRA",
+    "-Soporte técnico de alarmas interno/externo",
+    "-Líder de grupo",
+    "-Referente de aplicación corporativa",
+    "-Capacitador",
+    "-Análisis y escalamiento de incidencias",
+    "-Utilización de JIRA",
   ],
 };
 

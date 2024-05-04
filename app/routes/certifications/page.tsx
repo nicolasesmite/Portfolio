@@ -1,5 +1,5 @@
 import React from "react";
-import { education } from "../../../data";
+import { education } from "../../data";
 
 const page = () => {
   return (
