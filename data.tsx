@@ -24,35 +24,68 @@ import {
 export const menuItems = [
   {
     id: 1,
-    logo: <FaHome color="white" size={20} className="hover:scale-125" />,
-    name: "Home",
+    logo: (
+      <FaHome
+        title="Home"
+        color="white"
+        size={20}
+        className="hover:scale-125"
+      />
+    ),
+
     path: "/",
   },
   {
     id: 2,
-    logo: <FaUser color="white" size={20} className="hover:scale-125" />,
-    name: "AboutMe",
+    logo: (
+      <FaUser
+        title="About Me"
+        color="white"
+        size={20}
+        className="hover:scale-125"
+      />
+    ),
+
     path: "/routes/aboutMe",
   },
 
   {
     id: 3,
-    logo: <FaUserTie color="white" size={20} className="hover:scale-125" />,
-    name: "Experience",
+    logo: (
+      <FaUserTie
+        title="Experience"
+        color="white"
+        size={20}
+        className="hover:scale-125"
+      />
+    ),
+
     path: "/routes/experience",
   },
   {
     id: 4,
-    logo: <FaCode color="white" size={20} className="hover:scale-125" />,
+    logo: (
+      <FaCode
+        title="Projects"
+        color="white"
+        size={20}
+        className="hover:scale-125"
+      />
+    ),
     name: "Projects",
     path: "/routes/projects",
   },
   {
     id: 5,
     logo: (
-      <FaUserGraduate color="white" size={20} className="hover:scale-125" />
+      <FaUserGraduate
+        title="Certifications"
+        color="white"
+        size={20}
+        className="hover:scale-125"
+      />
     ),
-    name: "Certifications",
+
     path: "/routes/certifications",
   },
 ];

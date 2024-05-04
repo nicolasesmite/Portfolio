@@ -1,18 +1,18 @@
 import Image from "next/image";
-import profile from "./public/images/profile.jpg";
+import profile from "./public/images/profile.png";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 export default function Home() {
   return (
     <main className="flex justify-center items-center w-full h-full">
-      <div className="flex flex-col items-center justify-center w-1/2 sm:p-20 gap-8">
-        <div className="bg-violet-500 rounded-full w-[250px]">
+      <div className="flex flex-col items-center justify-center w-1/2 sm:p-10 gap-8">
+        <div className="bg-violet-500 justify-center items-center rounded-full">
           <Image
             width={200}
             height={200}
             alt="photo"
             src={profile}
-            className="rounded-full"
+            className=" justify-center"
           />
         </div>
 
