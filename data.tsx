@@ -1,5 +1,9 @@
+import Image from "next/image";
+import jkmImg from "./JaKeMate.png";
+import portofolioImg from "./portfolio.png";
 import {
   FaLinkedin,
+  FaDownload,
   FaGithub,
   FaHome,
   FaUser,
@@ -197,5 +201,39 @@ export const languages = [
     id: 3,
     language: "Portugués",
     level: " (Intermedio)",
+  },
+];
+
+export const projects = [
+  {
+    id: 1,
+    image: (
+      <Image
+        width={300}
+        height={200}
+        alt="photo"
+        src={jkmImg}
+        className=" justify-center"
+      />
+    ),
+    description:
+      "E-commerce creado con React y diseñado con CSS puro. Utilización de Vite, Firebase database y Firebase Auth, Mui y Mercadopago.",
+    linkDeploy: "https://ecommerce-nev.vercel.app/",
+    linkGit: "https://github.com/nicolasesmite/Ecommerce-NEV",
+  },
+  {
+    id: 2,
+    image: (
+      <Image
+        width={300}
+        height={100}
+        alt="photo"
+        src={portofolioImg}
+        className=" justify-center"
+      />
+    ),
+    description: "Portfolio realizado con Next Js y dise;ado con Tailwind.",
+    linkDeploy: "https://ecommerce-nev.vercel.app/",
+    linkGit: "https://github.com/nicolasesmite/Portfolio",
   },
 ];

@@ -4,7 +4,7 @@ import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 export default function Home() {
   return (
-    <main className="flex justify-center items-center w-full h-full">
+    <main className="flex justify-center items-center w-full h-screen">
       <div className="flex flex-col items-center justify-center w-1/2 sm:p-10 gap-8">
         <div className="bg-violet-500 justify-center items-center rounded-full">
           <Image
