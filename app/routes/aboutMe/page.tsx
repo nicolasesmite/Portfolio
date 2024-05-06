@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const page = () => {
   return (
-    <div className="flex justify-center w-full h-2/3 mt-8 sm:mt-12">
+    <div className="flex justify-center w-full h-screen mt-8 sm:mt-12">
       <div className="flex flex-col w-2/3 gap-3">
         <p className="text-xl sm:text-2xl">
           Soy un desarrollador frontend con enfoque en React. Me considero

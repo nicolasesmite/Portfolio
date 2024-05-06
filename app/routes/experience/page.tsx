@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const page = () => {
   return (
-    <div className="flex flex-col w-full items-center h-2/3 mt-8 sm:mt-12">
+    <div className="flex flex-col w-full items-center h-screen mt-8 sm:mt-12">
       <h2 className="text-2xl sm:text-4xl mb-5 text-nowrap">Experiencia</h2>
       <div className="flex flex-col">
         <h3 className="text-xl sm:text-3xl">{experience.jobPosition}</h3>

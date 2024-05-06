@@ -1,6 +1,7 @@
 import Image from "next/image";
 import jkmImg from "./JaKeMate.png";
 import portofolioImg from "./portfolio.png";
+import f1 from "./f1.png";
 import {
   FaLinkedin,
   FaDownload,
@@ -213,7 +214,7 @@ export const projects = [
         height={200}
         alt="photo"
         src={jkmImg}
-        className=" justify-center"
+        className=" justify-center mb-3"
       />
     ),
     description:
@@ -229,11 +230,27 @@ export const projects = [
         height={100}
         alt="photo"
         src={portofolioImg}
-        className=" justify-center"
+        className=" justify-center mb-2"
       />
     ),
     description: "Portfolio realizado con Next Js y dise;ado con Tailwind.",
     linkDeploy: "https://ecommerce-nev.vercel.app/",
     linkGit: "https://github.com/nicolasesmite/Portfolio",
+  },
+  {
+    id: 3,
+    image: (
+      <Image
+        width={300}
+        height={300}
+        alt="photo"
+        src={f1}
+        className=" justify-center mb-6"
+      />
+    ),
+    description:
+      "Historico de Formula 1 y sus competiciones. Desarrollado con React. Consulta a Api.",
+
+    linkGit: "https://github.com/nicolasesmite/F1-anaticos/",
   },
 ];

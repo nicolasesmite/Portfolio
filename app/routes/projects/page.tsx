@@ -4,7 +4,10 @@ import { projects } from "../../../data";
 
 const page = () => {
   return (
-    <div className="flex flex-col items-center w-full  h-full sm:h-2/3 mt-8 sm:mt-6">
+    <div
+      className="flex flex-col items-center w-full h-full pb-10 sm:h-screen
+     mt-8 sm:mt-6"
+    >
       <h3 className="text-xl w-full sm:text-3xl text-center">
         Proyectos y Challenges
       </h3>
@@ -12,23 +15,32 @@ const page = () => {
         {projects.map((project) => (
           <div
             key={project.id}
-            className="flex flex-col items-center w-2/3 gap-2 sm:w-1/3 bg-violet-700 rounded-md p-2 sm:gap-3 "
+            className="flex flex-col items-center w-2/3 gap-2 sm:w-1/4 bg-violet-700 rounded-md p-2 sm:m-4 "
           >
             {project.image}
 
-            <div className="flex flex-col w-full gap-1">
+            <div className="flex flex-col items-center w-full gap-1">
               <Link
                 href={project.linkGit}
                 className="bg-violet-500 rounded-lg text-center w-full"
               >
                 GitHub
               </Link>
-              <Link
-                href={project.linkDeploy}
-                className="bg-violet-500 rounded-lg text-center w-full"
-              >
-                Deploy
-              </Link>
+              {project.linkDeploy ? (
+                <Link
+                  href={project.linkDeploy}
+                  className="bg-violet-500 rounded-lg text-center w-full"
+                >
+                  Deploy
+                </Link>
+              ) : (
+                <Link
+                  href={""}
+                  className="bg-violet-500 rounded-lg text-center w-full"
+                >
+                  No tiene Deploy
+                </Link>
+              )}
               <p>{project.description}</p>
             </div>
           </div>
