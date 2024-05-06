@@ -244,7 +244,7 @@ export const projects = [
       />
     ),
     description: "Portfolio developed with Next Js and designed with Tailwind.",
-    linkDeploy: "https://nicolasemanuelesmite.vercel.app/",
+    linkDeploy: "https://nicolasesmite-portfolio.vercel.app/",
     linkGit: "https://github.com/nicolasesmite/Portfolio",
   },
   {
