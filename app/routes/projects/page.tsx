@@ -22,24 +22,19 @@ const page = () => {
             <div className="flex flex-col items-center w-full gap-1">
               <Link
                 href={project.linkGit}
-                className="bg-violet-500 rounded-lg text-center w-full"
+                className="bg-violet-500  hover:bg-violet-800 rounded-lg text-center w-full hover:transition-all"
               >
                 GitHub
               </Link>
               {project.linkDeploy ? (
                 <Link
                   href={project.linkDeploy}
-                  className="bg-violet-500 rounded-lg text-center w-full"
+                  className="bg-violet-500  hover:bg-violet-800 rounded-lg text-center w-full hover:transition-all"
                 >
                   Deploy
                 </Link>
               ) : (
-                <Link
-                  href={""}
-                  className="bg-violet-500 rounded-lg text-center w-full"
-                >
-                  No tiene Deploy
-                </Link>
+                <p className="text-neutral-600">No tiene deploy</p>
               )}
               <p>{project.description}</p>
             </div>

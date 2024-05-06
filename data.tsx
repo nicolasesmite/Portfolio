@@ -170,21 +170,20 @@ export const experience = {
 };
 
 export const education = [
+  { id: 1, name: "Coderhouse", info: "Javascript , 2022" },
+
+  { id: 2, name: "Coderhouse", info: "React JS, 2023" },
   {
-    id: 1,
+    id: 3,
     name: "UTU Arias Balparda",
     info: "Bachiller Electro-Mecánica, 2017",
   },
 
   {
-    id: 2,
+    id: 4,
     name: "Jóvenes a Programar-Ceibal",
     info: "Front-end development, 2022",
   },
-
-  { id: 3, name: "Coderhouse", info: "Javascript , 2022" },
-
-  { id: 4, name: "Coderhouse", info: "React JS, 2023" },
 ];
 
 export const languages = [
@@ -252,5 +251,24 @@ export const projects = [
       "Historico de Formula 1 y sus competiciones. Desarrollado con React. Consulta a Api.",
 
     linkGit: "https://github.com/nicolasesmite/F1-anaticos/",
+  },
+];
+
+export const certifications = [
+  {
+    path: "https://www.credly.com/badges/60bdceb5-8e7b-4ace-ad21-5aeee15a21d3?source=linked_in_profile",
+    name: "Google IT Support Certificate",
+  },
+  {
+    path: "https://www.coursera.org/account/accomplishments/certificate/NP2NYHJZG68B",
+    name: "Big Data: el impacto de los datos masivos en la sociedad actual",
+  },
+  {
+    path: "https://www.coursera.org/account/accomplishments/certificate/QF8VWQLEPF6J",
+    name: "Introducción a la programación con Python",
+  },
+  {
+    path: "https://www.coursera.org/account/accomplishments/certificate/US4GLR8M86DW",
+    name: "The Bits and Bytes of Computer Networking",
   },
 ];

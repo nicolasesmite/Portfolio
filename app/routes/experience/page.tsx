@@ -19,14 +19,10 @@ const page = () => {
         <div className="flex flex-col gap-2 mt-12 items-center justify-normal">
           <Link
             href="https://drive.google.com/drive/folders/1nmxKwjFd8Om6L0JSMSxD-xdlB2QPMVCG?usp=drive_link"
-            className="bg-violet-500 rounded-lg p-2 text-center w-2/3"
+            className="bg-violet-500 hover:bg-violet-800 rounded-lg p-2 text-center w-2/3 hover:transition-all"
           >
             Descargar Curriculum
           </Link>
-          <Link
-            href="https://drive.google.com/drive/folders/1nmxKwjFd8Om6L0JSMSxD-xdlB2QPMVCG?usp=drive_link"
-            className="bg-violet-500 rounded-lg text-center w-2/3"
-          ></Link>
         </div>
       </div>
     </div>

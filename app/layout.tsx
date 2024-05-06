@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={josefine.className}>
-      <body className=" text-gray-100 flex h-full w-screen bg-gradient-to-tr from-black to-violet-900">
+      <body className=" text-gray-100 flex h-full w-full bg-gradient-to-tr from-black to-violet-900">
         <Navbar />
         {children}
       </body>
