@@ -18,10 +18,11 @@ const page = () => {
         <h3 className="text-xl sm:text-3xl mb-2 text-center">Certificados</h3>
         {certifications.map((certificate) => (
           <Link
+            key={certificate.name}
             href={certificate.path}
             className="w-2/3 bg-violet-500  hover:bg-violet-800 rounded-lg text-center hover:transition-all"
           >
-            {certificate.name} {}
+            {certificate.name}
           </Link>
         ))}
       </div>
