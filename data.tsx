@@ -103,7 +103,7 @@ export const menuItems = [
       />
     ),
 
-    path: "https://www.linkedin.com/in/nicolas-emanuel-esmite-valdez-b583631a2/overlay/contact-info/",
+    path: "https://www.linkedin.com/in/nicolas-emanuel-esmite-valdez-b583631a2/",
   },
 ];
 
