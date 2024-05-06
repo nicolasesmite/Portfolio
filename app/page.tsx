@@ -17,7 +17,7 @@ export default function Home() {
         </div>
 
         <h2 className="text-2xl sm:text-4xl mb-5 text-nowrap">
-          ¡Hello, it's Nicolas!
+          Hello, it's Nicolas!
         </h2>
         <p className="text-xl text-center sm:text-2xl">
           I am a frontend developer trying to enter the IT World. ¿Want to know
