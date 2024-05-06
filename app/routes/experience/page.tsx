@@ -5,7 +5,7 @@ import Link from "next/link";
 const page = () => {
   return (
     <div className="flex flex-col w-full items-center h-screen mt-8 sm:mt-12">
-      <h2 className="text-2xl sm:text-4xl mb-5 text-nowrap">Experiencia</h2>
+      <h2 className="text-2xl sm:text-4xl mb-5 text-nowrap">Work history</h2>
       <div className="flex flex-col">
         <h3 className="text-xl sm:text-3xl">{experience.jobPosition}</h3>
         <p className="text-gray-400 text-lg sm:text-2xl mb-3">
@@ -21,7 +21,7 @@ const page = () => {
             href="https://drive.google.com/drive/folders/1nmxKwjFd8Om6L0JSMSxD-xdlB2QPMVCG?usp=drive_link"
             className="bg-violet-500 hover:bg-violet-800 rounded-lg p-2 text-center w-2/3 hover:transition-all"
           >
-            Descargar Curriculum
+            Download resume
           </Link>
         </div>
       </div>

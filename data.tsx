@@ -4,7 +4,6 @@ import portofolioImg from "./portfolio.png";
 import f1 from "./f1.png";
 import {
   FaLinkedin,
-  FaDownload,
   FaGithub,
   FaHome,
   FaUser,
@@ -84,14 +83,27 @@ export const menuItems = [
     id: 5,
     logo: (
       <FaUserGraduate
-        title="Certifications"
+        title="Certificates"
         color="white"
         size={20}
         className="hover:scale-125"
       />
     ),
 
-    path: "/routes/certifications",
+    path: "/routes/certificates",
+  },
+  {
+    id: 5,
+    logo: (
+      <FaLinkedin
+        title="Contact"
+        color="white"
+        size={20}
+        className="hover:scale-125"
+      />
+    ),
+
+    path: "https://www.linkedin.com/in/nicolas-emanuel-esmite-valdez-b583631a2/overlay/contact-info/",
   },
 ];
 
@@ -157,50 +169,49 @@ export const tools = [
 ];
 
 export const experience = {
-  jobPosition: "Prosegur Alarmas (Técnico Remoto)",
-  jobPeriod: "Enero 2021- Febrero 2024",
+  jobPosition: "Prosegur Alarms (support technician)",
+  jobPeriod: "January 2021- February 2024",
   jobTasks: [
-    "-Soporte técnico de alarmas interno/externo",
-    "-Líder de grupo",
-    "-Referente de aplicación corporativa",
-    "-Capacitador",
-    "-Análisis y escalamiento de incidencias",
-    "-Utilización de JIRA",
+    "-Internal and External alarms support",
+    "-Teamleader",
+    "-Corporate application leader",
+    "-Trainer",
+    "-Analysis and scaling issues",
+    "-Work with JIRA",
   ],
 };
 
 export const education = [
-  { id: 1, name: "Coderhouse", info: "Javascript , 2022" },
-
-  { id: 2, name: "Coderhouse", info: "React JS, 2023" },
+  { id: 1, name: "Coderhouse", info: "React JS, 2023" },
+  { id: 2, name: "Coderhouse", info: "Javascript , 2022" },
   {
     id: 3,
-    name: "UTU Arias Balparda",
-    info: "Bachiller Electro-Mecánica, 2017",
+    name: "Jóvenes a Programar-Ceibal",
+    info: "Front-end development, 2022",
   },
 
   {
     id: 4,
-    name: "Jóvenes a Programar-Ceibal",
-    info: "Front-end development, 2022",
+    name: "UTU Arias Balparda",
+    info: "Bachelor in electromechanics, 2017",
   },
 ];
 
 export const languages = [
   {
     id: 1,
-    language: "Español",
-    level: " (Nativo)",
+    language: "Spanish",
+    level: " (Native)",
   },
   {
     id: 2,
-    language: "Inglés",
-    level: " (Avanzado)",
+    language: "English",
+    level: " (Advanced)",
   },
   {
     id: 3,
-    language: "Portugués",
-    level: " (Intermedio)",
+    language: "Portuguese",
+    level: " (Intermediate)",
   },
 ];
 
@@ -217,7 +228,7 @@ export const projects = [
       />
     ),
     description:
-      "E-commerce creado con React y diseñado con CSS puro. Utilización de Vite, Firebase database y Firebase Auth, Mui y Mercadopago.",
+      "E-commerce developed with React and designed with pure CSS. Implementation of Vite, Firebase database and Firebase Auth, Mui and Mercadopago.",
     linkDeploy: "https://ecommerce-nev.vercel.app/",
     linkGit: "https://github.com/nicolasesmite/Ecommerce-NEV",
   },
@@ -232,8 +243,8 @@ export const projects = [
         className=" justify-center mb-2"
       />
     ),
-    description: "Portfolio realizado con Next Js y dise;ado con Tailwind.",
-    linkDeploy: "https://ecommerce-nev.vercel.app/",
+    description: "Portfolio developed with Next Js and designed with Tailwind.",
+    linkDeploy: "https://nicolasemanuelesmite.vercel.app/",
     linkGit: "https://github.com/nicolasesmite/Portfolio",
   },
   {
@@ -248,7 +259,7 @@ export const projects = [
       />
     ),
     description:
-      "Historico de Formula 1 y sus competiciones. Desarrollado con React. Consulta a Api.",
+      "Formula 1 and competition history. Developed with React. Api query.",
 
     linkGit: "https://github.com/nicolasesmite/F1-anaticos/",
   },
@@ -261,11 +272,11 @@ export const certifications = [
   },
   {
     path: "https://www.coursera.org/account/accomplishments/certificate/NP2NYHJZG68B",
-    name: "Big Data: el impacto de los datos masivos en la sociedad actual",
+    name: "Big Data: The impact of big data on today's society",
   },
   {
     path: "https://www.coursera.org/account/accomplishments/certificate/QF8VWQLEPF6J",
-    name: "Introducción a la programación con Python",
+    name: "Python introduction",
   },
   {
     path: "https://www.coursera.org/account/accomplishments/certificate/US4GLR8M86DW",

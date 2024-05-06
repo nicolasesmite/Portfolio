@@ -9,7 +9,7 @@ const page = () => {
      mt-8 sm:mt-6"
     >
       <h3 className="text-xl w-full sm:text-3xl text-center">
-        Proyectos y Challenges
+        Projects and Challenges
       </h3>
       <div className="flex flex-wrap place-content-center w-full gap-1 p-3 sm:mt-3">
         {projects.map((project) => (
@@ -34,7 +34,7 @@ const page = () => {
                   Deploy
                 </Link>
               ) : (
-                <p className="text-neutral-600">No tiene deploy</p>
+                <p className="text-neutral-600">No deploy available</p>
               )}
               <p>{project.description}</p>
             </div>

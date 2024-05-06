@@ -7,12 +7,12 @@ const page = () => {
     <div className="flex justify-center w-screen h-screen mt-8 sm:mt-12">
       <div className="flex flex-col w-2/3 gap-3">
         <p className="text-xl sm:text-2xl">
-          Soy un desarrollador frontend con enfoque en React. Me considero
-          alguien con facilidad de aprendizaje, capaz de seguir instrucciones y
-          fomentar un buen ambiente y relaciones internas.
+          I am a frontend developer with focus on React . I consider myself
+          someone with a knack for learning, capable of following instructions,
+          and fostering a positive environment and internal relationships.
         </p>
         <div className="flex flex-col sm:mt-10">
-          <h3 className="text-xl sm:text-3xl mb-2">Lenguajes y Frameworks</h3>
+          <h3 className="text-xl sm:text-3xl mb-2">Languages and Frameworks</h3>
           <div className="flex gap-3 mb-6">
             {languagesAndFrameworks.map((element) => (
               <Link href={element.path} key={element.id}>
@@ -20,7 +20,7 @@ const page = () => {
               </Link>
             ))}
           </div>
-          <h3 className="text-xl sm:text-3xl mb-2">Herramientas</h3>
+          <h3 className="text-xl sm:text-3xl mb-2">Tools</h3>
           <div className="flex gap-3 mb-6">
             {tools.map((element) => (
               <Link href={element.path} key={element.id}>
@@ -28,7 +28,7 @@ const page = () => {
               </Link>
             ))}
           </div>
-          <h3 className="text-xl sm:text-3xl mb-2">Idiomas</h3>
+          <h3 className="text-xl sm:text-3xl mb-2">Languages</h3>
           <div className="flex flex-col mb-6 ">
             {languages.map((language) => (
               <div key={language.id} className="flex flex-wrap gap-1">
