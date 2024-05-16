@@ -15,7 +15,7 @@ const page = () => {
         {projects.map((project) => (
           <div
             key={project.id}
-            className="flex flex-col items-center w-2/3 gap-2 sm:w-1/4 bg-violet-700 rounded-md p-2 sm:m-4 "
+            className="flex flex-col items-center w-2/3 gap-2 sm:w-1/6 bg-violet-700 rounded-md p-2 sm:m-4 "
           >
             {project.image}
 
