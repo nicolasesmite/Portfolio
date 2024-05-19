@@ -278,6 +278,21 @@ export const projects = [
 
     linkGit: "https://github.com/nicolasesmite/CodeChallenges-1.git",
   },
+  {
+    id: 4,
+    image: (
+      <Image
+        width={300}
+        height={300}
+        alt="photo"
+        src={f1}
+        className=" justify-center mb-6"
+      />
+    ),
+    description: "Programming logic practice challenges pt.2",
+
+    linkGit: "https://github.com/nicolasesmite/CodeChallenges-2.git",
+  },
 ];
 
 export const certifications = [
